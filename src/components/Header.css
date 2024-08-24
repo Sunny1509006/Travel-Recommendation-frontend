@@ -1,0 +1,30 @@
+/* src/components/Header.css */
+
+.header {
+    background-image: url('../assets/images/travel.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust the height as needed */
+    color: white; /* Text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .header-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background to make text more readable */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 3rem; /* Adjust font size */
+  }
+  
+  .header p {
+    margin: 10px 0 0;
+    font-size: 1.5rem; /* Adjust font size */
+  }
+  
