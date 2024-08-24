@@ -5,6 +5,7 @@ import Header from './components/Header';
 import DestinationForm from './components/DestinationForm';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import View from './components/View';
+import Details from './components/Details';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
       <Route path="/" element={<DestinationForm />} />
       <Route path="/view" element={<View />} />
+      <Route path="/details/:id" element={<Details />} />
       </Routes>
     </Router>
       </div>
